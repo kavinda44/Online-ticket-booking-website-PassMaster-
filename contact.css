@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(15, 14, 14, 0.8), black), url(239836.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #98ae34;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    margin: 0px;
+    overflow-x: hidden;
+    padding: 0px;
+    width: 100vw;
+}
+
+.contact-slide {
+    background-image: linear-gradient(90deg, black, rgba(0, 0, 0, 0.6)), url("pictures/contact.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 80vh;
+    margin: 1vw;
+    position: relative;
+    text-align: left;
+}
+
+.contact-slide>p {
+    color: rgb(238, 238, 238);
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    font-size: 3rem;
+}
+
+.contact-slide>p>span {
+    color: #8B9A46;
+    font-size: 5rem;
+}
+
+h1{
+    margin-left: 5vw;
+}
+
+.links {
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-media {
+    background-color: rgb(238, 238, 238);
+    border-radius: 20px;
+    padding: 20px;
+    width: 120px;
+}
+
+.empty{
+    height: 20vh;
+}
+.social-media>img {
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0f0e0e;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(rgba(139, 154, 70, 0.6), black);
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(rgba(139, 154, 70), black);
+    cursor: pointer;
+}
+
+footer{
+    position: fixed;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background-color: #0f0e0e;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    z-index: 10;
+}

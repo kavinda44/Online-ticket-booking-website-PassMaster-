@@ -1,0 +1,26 @@
+input[type=checkbox] + label {
+    color: #ccc;
+    font-style: italic;
+} 
+input[type=checkbox]:checked + label {
+    color: #0964aa;
+    font-style: normal;
+}
+body{
+    background-color: red;
+} 
+select{
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+select option{
+    min-height: 9em;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: left;
+    line-height: 200px;
+
+}
+select:focus > option:checked { 
+    background: #000 !important;
+}
